@@ -1,11 +1,14 @@
 import './App.css';
 import React from 'react';
+import Header from './Header'
 
 function App() {
   return (
       //BEM class naming convention
     <div className="app">
-      <h1>Let's build a MERN stack web app</h1>
+        <Header/>
+        {/* Tinder Cards*/}
+        {/* Swipe Buttons */}
     </div>
   );
 }
